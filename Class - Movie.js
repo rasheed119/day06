@@ -1,4 +1,5 @@
 
+
 //a) Write a constructor for the class Movie, which takes a String representing the title of the movie, a String representing the studio, and a String representing the rating as its arguments, and sets the respective class properties to these values.
 class Movie{
     constructor(title,studio,rating){
@@ -21,9 +22,9 @@ class Movie{
 var m = new Movie("Casino Royale","Eon Productions","PG13");
 
 var movies = [
-  new Movie("Inception", "Warner Bros. Pictures Legendary", "G"),
-  new Movie("Interstellar", "Legendary Pictures Syncopy", "PG"),
-  new Movie("Tenet", "Syncopy", "PG"),
+  new Movie("A Bug's Life", "Pixar Animation Studios", "G"),
+  new Movie("Big Hero 6", "Walt Disney Animation Studios", "PG"),
+  new Movie("Tenet", "Syncopy", "PG13"),
 ];
 var PG_movies = m.getPG(movies);
 console.log(PG_movies.map(x=>x.title));
